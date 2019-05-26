@@ -1,0 +1,22 @@
+a=input ("Roll No.")
+b= raw_input ("Student Name")
+c=input ("Marks in Maths")
+d=input ("Marks in Science")
+e=input ("Marks in English")
+f=input ("Marks in Hindi")
+g=input ("Marks in SST")
+
+print ("==================")
+
+print ("Roll No %d"%(a))
+print ("Roll No %s"%(b))
+print ("Roll No %d"%(c))
+print ("Roll No %d"%(d))
+print ("Roll No %d"%(e))
+print ("Roll No %d"%(f))
+print ("Roll No %d"%(g))
+
+h=(c+d+e+f+g)
+print ("Total Marks %d"%(h))
+i=(h/5)
+print ("Average Marks %d"%(i))
